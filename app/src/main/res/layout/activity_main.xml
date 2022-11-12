@@ -1,1 +1,131 @@
-Ss
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingLeft="@dimen/activity_horizontal_margin"
+	android:paddingRight="@dimen/activity_horizontal_margin"
+	android:paddingBottom="@dimen/activity_vertical_margin"
+	android:orientation="vertical"
+	tools:context=".MainActivity">
+
+	<RelativeLayout
+		android:layout_height="100dp"
+		android:layout_width="match_parent"
+		android:background="#90EC6C"
+		android:layout_marginTop="10dp"
+		android:paddingTop="10dp"
+		android:paddingLeft="4dp"
+		android:paddingRight="4dp"
+		android:paddingBottom="2dp"
+		android:gravity="center">
+
+		<Switch
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="wrap_content"
+			android:text="Viena"
+			android:layout_alignParentRight="true"
+			android:id="@+id/tvUsername"
+			android:layout_marginTop="25dp"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="wrap_content"
+			android:text="123"
+			android:password="true"
+			android:id="@+id/tvPassword"
+			android:layout_alignParentRight="true"
+			android:layout_marginTop="4dp"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:id="@+id/tvTittle"
+			android:text="Popeye Music"
+			android:layout_marginLeft="63dp"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:layout_marginTop="25dp"
+			android:id="@+id/tvCheckLoginResult"
+			android:layout_marginLeft="121dp"/>
+
+		<Button
+			style="?android:attr/buttonStyleSmall"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Login"
+			android:layout_marginTop="43dp"
+			android:onClick="checkLoginCaller"/>
+
+	</RelativeLayout>
+
+	<Button
+		style="?android:attr/buttonStyleSmall"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Agnes: Cinta diujung jalan"
+		android:layout_marginTop="10dp"
+		android:onClick="startSong"/>
+
+	<Button
+		style="?android:attr/buttonStyleSmall"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Slank - Mawar Merah"
+		android:onClick="songSlankMM"/>
+
+	<Button
+		style="?android:attr/buttonStyleSmall"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Slank - Biru"
+		android:onClick="songSlankBiru"/>
+
+	<Button
+		style="?android:attr/buttonStyleSmall"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Slank - Juwita Malam"
+		android:onClick="songSlankJM"/>
+
+	<Button
+		style="?android:attr/buttonStyleSmall"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="DCinnamons-Selamanya Cinta"
+		android:onClick="songDCinnamonsSC"/>
+
+	<Button
+		style="?android:attr/buttonStyleSmall"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Light Switch On"
+		android:onClick="songSeventeenKemarin"/>
+
+	<Button
+		style="?android:attr/buttonStyleSmall"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Guns n Roses November Rain"
+		android:onClick="songGnRNovemberRain"/>
+
+	<Button
+		style="?android:attr/buttonStyleSmall"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Agnes - Matahariku"
+		android:onClick="songAgnesMatahariku"/>
+
+</LinearLayout>
+
